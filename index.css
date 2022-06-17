@@ -1,0 +1,30 @@
+:root {
+  --mushroom-color: rgb(159, 92, 92);
+}
+
+.mushroom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mushroom-top,
+.mushroom-middle,
+.mushroom-stem {
+  background-color: var(--mushroom-color);
+}
+
+.mushroom-top,
+.mushroom-middle {
+  width: 150px;
+  height: 25px;
+}
+
+.mushroom-top {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.mushroom-stem {
+  height: 50px;
+  width: 50px;
+}
